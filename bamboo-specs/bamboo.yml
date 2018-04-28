@@ -1,0 +1,10 @@
+project:
+  key: HW
+  plan:
+    key: HW-GO
+    name: Go Sample Project
+
+stages:
+  - jobs:
+      - scripts:
+          - echo 'Go Sample Project'
